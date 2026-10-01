@@ -1,9 +1,7 @@
-## Invitación
+# Invitación — Cita con Gatitos 🐾
 
-La página principal es [`client/index.html`](client/index.html): una invitación autocontenida con estilos y scripts inline e imágenes embebidas. La dirección visual está documentada en [`ideas.md`](ideas.md).
+Página estática simple de la invitación. El HTML completo está en [`index.html`](index.html), con estilos, scripts e imágenes incluidos en el propio archivo.
 
-El teléfono literal fue reemplazado por `xxxx`. Los enlaces cortos de WhatsApp que venían en el HTML original se mantienen.
+El teléfono literal se sustituyó por `xxxx`. Se conservaron los enlaces cortos de WhatsApp del HTML original.
 
-## Desarrollo
-
-Proyecto con Vite, React y TypeScript. Para levantarlo localmente, instala dependencias con `pnpm install` y ejecuta `pnpm dev`.
+No necesita dependencias para abrirse: basta con abrir `index.html` en un navegador o servirlo con cualquier hosting estático.
