@@ -1,13 +1,9 @@
-# Invitación — Cita con Gatitos 🐾
+## Invitación
 
-Repositorio inicial para una invitación romántica con temática de gatitos. La dirección visual descrita en [`ideas.md`](ideas.md) propone una estética minimalista y cálida, con crema, rosa pálido y dorado.
+La página principal es [`client/index.html`](client/index.html): una invitación autocontenida con estilos y scripts inline e imágenes embebidas. La dirección visual está documentada en [`ideas.md`](ideas.md).
 
-## Contenido
+El teléfono literal fue reemplazado por `xxxx`. Los enlaces cortos de WhatsApp que venían en el HTML original se mantienen.
 
-- Configuración de React, Vite, TypeScript y dependencias (`package.json`, `pnpm-lock.yaml`, `vite.config.ts`).
-- Archivos de ejemplo del scaffold en `client/` y servidor estático en `server/`, materializados desde `template.json`.
-- Notas de diseño y estructura sugerida para la experiencia multipaso en `ideas.md`.
+## Desarrollo
 
-## Estado
-
-Este repositorio contiene el scaffold y los archivos de configuración recibidos, no una invitación terminada. La página `Home.tsx` todavía es de ejemplo y faltan piezas del arranque/interfaz referenciadas por la plantilla; habrá que completarlas antes de que la aplicación compile y se pueda ejecutar.
+Proyecto con Vite, React y TypeScript. Para levantarlo localmente, instala dependencias con `pnpm install` y ejecuta `pnpm dev`.
